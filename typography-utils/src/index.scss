@@ -1,0 +1,12 @@
+// index.scss
+
+@use './fonts';
+@use './tokens' as *;
+@use './font-size' as *;
+@use './font-weight' as *;
+@use './line-height' as *;
+@use './text-case' as *;
+@use './text-decoration' as *;
+@use './paragraph-spacing' as *;
+@use './paragraph-indent' as *;
+@use './font-family' as *;

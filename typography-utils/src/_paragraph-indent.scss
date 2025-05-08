@@ -1,0 +1,9 @@
+// _paragraph-indent.scss
+
+@use './tokens' as *;
+
+@each $name, $value in $paragraph-indent {
+  .paragraph-indent-#{$name} {
+    text-indent: #{$value};
+  }
+}

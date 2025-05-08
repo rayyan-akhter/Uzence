@@ -1,0 +1,9 @@
+// _paragraph-spacing.scss
+
+@use './tokens' as *;
+
+@each $name, $value in $paragraph-spacing {
+  .paragraph-spacing-#{$name} {
+    margin-bottom: #{$value};
+  }
+}

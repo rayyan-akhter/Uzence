@@ -1,0 +1,9 @@
+// _font-size.scss
+
+@use './tokens' as *;
+
+@each $name, $size in $font-sizes {
+  .font-#{$name} {
+    font-size: #{$size};
+  }
+}

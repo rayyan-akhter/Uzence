@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+body {
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+.space-y-4 > * + * {
+  margin-top: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+/* Add some visual separation between sections */
+h2 {
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Add hover effects to text decorations */
+[class*="decoration-"] {
+  transition: all 0.2s ease;
+}
+
+[class*="decoration-"]:hover {
+  opacity: 0.8;
+}
+
+/* Add subtle background to font family examples */
+.font-inter,
+.font-sans,
+.font-serif,
+.font-mono {
+  padding: 1rem;
+  background-color: #f1f5f9;
+  border-radius: 0.5rem;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "typography-utils",
+  "version": "1.0.0",
+  "description": "Typography utility framework",
+  "main": "dist/index.css",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "postcss-scss": "^4.0.9",
+    "rollup": "^4.40.2",
+    "rollup-plugin-postcss": "^4.0.2",
+    "sass": "^1.87.0"
+  }
+}
