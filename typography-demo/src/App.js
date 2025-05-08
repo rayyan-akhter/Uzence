@@ -1,100 +1,219 @@
+import React from "react";
 import "./App.css";
 
 function App() {
   return (
-    <div className="font-inter p-8">
-      <h1 className="font-6xl font-black leading-tight case-uppercase decoration-underline-double">
-        Typography Framework
-      </h1>
+    <div className="app-container">
+      <header className="app-header">
+        <h1 className="text-4xl font-bold text-center mb-8">
+          Typography Framework
+        </h1>
+        <p className="text-lg text-center mb-12">
+          A comprehensive typography system for modern web applications
+        </p>
+      </header>
 
-      <h2 className="font-4xl font-bold leading-snug mt-8">Font Sizes</h2>
-      <div className="space-y-4">
-        <p className="font-2xs">2xs (10px) - The smallest text size</p>
-        <p className="font-xs">xs (12px) - Extra small text</p>
-        <p className="font-sm">sm (14px) - Small text</p>
-        <p className="font-base">base (16px) - Default text size</p>
-        <p className="font-lg">lg (18px) - Large text</p>
-        <p className="font-xl">xl (20px) - Extra large text</p>
-        <p className="font-2xl">2xl (24px) - 2x large text</p>
-        <p className="font-3xl">3xl (30px) - 3x large text</p>
-        <p className="font-4xl">4xl (36px) - 4x large text</p>
-      </div>
+      <main className="demo-container">
+        {/* Font Sizes Section */}
+        <section className="demo-section">
+          <h2 className="section-title">Font Sizes</h2>
+          <div className="grid grid-cols-2 gap-4">
+            <div className="demo-item">
+              <p className="text-2xs">2xs (10px) - Tiny text for labels</p>
+              <p className="text-xs">xs (12px) - Small text for captions</p>
+              <p className="text-sm">
+                sm (14px) - Small text for secondary content
+              </p>
+              <p className="text-base">base (16px) - Default body text</p>
+              <p className="text-lg">lg (18px) - Large body text</p>
+              <p className="text-xl">xl (20px) - Extra large text</p>
+              <p className="text-2xl">2xl (24px) - Heading level 4</p>
+              <p className="text-3xl">3xl (30px) - Heading level 3</p>
+              <p className="text-4xl">4xl (36px) - Heading level 2</p>
+            </div>
+            <div className="demo-item">
+              <p className="text-5xl">5xl (48px) - Large heading</p>
+              <p className="text-6xl">6xl (60px) - Extra large heading</p>
+              <p className="text-7xl">7xl (72px) - Hero text</p>
+              <p className="text-8xl">8xl (96px) - Display text</p>
+              <p className="text-9xl">9xl (128px) - Giant display text</p>
+            </div>
+          </div>
+        </section>
 
-      <h2 className="font-4xl font-bold leading-snug mt-8">Font Weights</h2>
-      <div className="space-y-4">
-        <p className="font-thin">Thin (100) - Lightest weight</p>
-        <p className="font-extralight">Extra Light (200)</p>
-        <p className="font-light">Light (300)</p>
-        <p className="font-normal">Normal (400) - Default weight</p>
-        <p className="font-medium">Medium (500)</p>
-        <p className="font-semibold">Semibold (600)</p>
-        <p className="font-bold">Bold (700)</p>
-        <p className="font-extrabold">Extra Bold (800)</p>
-        <p className="font-black">Black (900) - Heaviest weight</p>
-      </div>
+        {/* Font Weights Section */}
+        <section className="demo-section">
+          <h2 className="section-title">Font Weights</h2>
+          <div className="grid grid-cols-2 gap-4">
+            <div className="demo-item">
+              <p className="font-thin">Thin (100) - Ultra light weight</p>
+              <p className="font-extralight">
+                Extra Light (200) - Very light weight
+              </p>
+              <p className="font-light">Light (300) - Light weight</p>
+              <p className="font-normal">Normal (400) - Regular weight</p>
+            </div>
+            <div className="demo-item">
+              <p className="font-medium">Medium (500) - Medium weight</p>
+              <p className="font-semibold">Semibold (600) - Semi bold weight</p>
+              <p className="font-bold">Bold (700) - Bold weight</p>
+              <p className="font-extrabold">
+                Extra Bold (800) - Extra bold weight
+              </p>
+              <p className="font-black">Black (900) - Black weight</p>
+            </div>
+          </div>
+        </section>
 
-      <h2 className="font-4xl font-bold leading-snug mt-8">Line Heights</h2>
-      <div className="space-y-4">
-        <p className="leading-none">None (1) - Tightest line height</p>
-        <p className="leading-tight">Tight (1.25)</p>
-        <p className="leading-snug">Snug (1.375)</p>
-        <p className="leading-normal">Normal (1.5) - Default line height</p>
-        <p className="leading-relaxed">Relaxed (1.625)</p>
-        <p className="leading-loose">Loose (2) - Widest line height</p>
-      </div>
+        {/* Line Heights Section */}
+        <section className="demo-section">
+          <h2 className="section-title">Line Heights</h2>
+          <div className="grid grid-cols-2 gap-4">
+            <div className="demo-item">
+              <div className="line-height-demo">
+                <p className="leading-none">
+                  None (1) - Compact text
+                  <br />
+                  Second line to demonstrate
+                  <br />
+                  Third line to show spacing
+                </p>
+                <p className="leading-tight">
+                  Tight (1.25) - Slightly compact
+                  <br />
+                  Second line to demonstrate
+                  <br />
+                  Third line to show spacing
+                </p>
+                <p className="leading-snug">
+                  Snug (1.375) - Comfortable reading
+                  <br />
+                  Second line to demonstrate
+                  <br />
+                  Third line to show spacing
+                </p>
+                <p className="leading-normal">
+                  Normal (1.5) - Standard line height
+                  <br />
+                  Second line to demonstrate
+                  <br />
+                  Third line to show spacing
+                </p>
+              </div>
+            </div>
+            <div className="demo-item">
+              <div className="line-height-demo">
+                <p className="leading-relaxed">
+                  Relaxed (1.625) - More breathing room
+                  <br />
+                  Second line to demonstrate
+                  <br />
+                  Third line to show spacing
+                </p>
+                <p className="leading-loose">
+                  Loose (2) - Very spacious
+                  <br />
+                  Second line to demonstrate
+                  <br />
+                  Third line to show spacing
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-      <h2 className="font-4xl font-bold leading-snug mt-8">Text Cases</h2>
-      <div className="space-y-4">
-        <p className="case-uppercase">UPPERCASE TEXT</p>
-        <p className="case-lowercase">lowercase text</p>
-        <p className="case-capitalize">capitalize text</p>
-        <p className="case-normal">Normal Text</p>
-      </div>
+        {/* Text Cases Section */}
+        <section className="demo-section">
+          <h2 className="section-title">Text Cases</h2>
+          <div className="grid grid-cols-2 gap-4">
+            <div className="demo-item">
+              <p className="uppercase">uppercase - ALL CAPS TEXT</p>
+              <p className="lowercase">lowercase - all lowercase text</p>
+              <p className="capitalize">
+                capitalize - First Letter Of Each Word
+              </p>
+              <p className="normal-case">normal-case - Regular text case</p>
+            </div>
+          </div>
+        </section>
 
-      <h2 className="font-4xl font-bold leading-snug mt-8">Text Decorations</h2>
-      <div className="space-y-4">
-        <p className="decoration-none">No decoration</p>
-        <p className="decoration-underline">Underline</p>
-        <p className="decoration-line-through">Line through</p>
-        <p className="decoration-overline">Overline</p>
-        <p className="decoration-underline-dotted">Dotted underline</p>
-        <p className="decoration-underline-dashed">Dashed underline</p>
-        <p className="decoration-underline-double">Double underline</p>
-        <p className="decoration-underline-wavy">Wavy underline</p>
-      </div>
+        {/* Text Decorations Section */}
+        <section className="demo-section">
+          <h2 className="section-title">Text Decorations</h2>
+          <div className="grid grid-cols-2 gap-4">
+            <div className="demo-item">
+              <p className="no-underline">No decoration - Plain text</p>
+              <p className="underline">Underline - Basic underline</p>
+              <p className="underline-dotted">
+                Underline dotted - Dotted style
+              </p>
+              <p className="underline-dashed">
+                Underline dashed - Dashed style
+              </p>
+            </div>
+            <div className="demo-item">
+              <p className="underline-double">Underline double - Double line</p>
+              <p className="underline-wavy">Underline wavy - Wavy style</p>
+              <p className="line-through">Line through - Strikethrough text</p>
+              <p className="overline">Overline - Text with overline</p>
+            </div>
+          </div>
+        </section>
 
-      <h2 className="font-4xl font-bold leading-snug mt-8">
-        Paragraph Spacing
-      </h2>
-      <div className="space-y-4">
-        <p className="paragraph-spacing-none">No spacing</p>
-        <p className="paragraph-spacing-xs">Extra small spacing</p>
-        <p className="paragraph-spacing-sm">Small spacing</p>
-        <p className="paragraph-spacing-md">Medium spacing</p>
-        <p className="paragraph-spacing-lg">Large spacing</p>
-        <p className="paragraph-spacing-xl">Extra large spacing</p>
-        <p className="paragraph-spacing-2xl">2x large spacing</p>
-      </div>
+        {/* Paragraph Spacing Section */}
+        <section className="demo-section">
+          <h2 className="section-title">Paragraph Spacing</h2>
+          <div className="grid grid-cols-2 gap-4">
+            <div className="demo-item">
+              <div className="paragraph-spacing-demo">
+                <div className="space-y-0">
+                  <p>No spacing between paragraphs</p>
+                  <p>This is another paragraph</p>
+                  <p>And one more paragraph</p>
+                </div>
+                <div className="space-y-4">
+                  <p>Small spacing between paragraphs</p>
+                  <p>This is another paragraph</p>
+                  <p>And one more paragraph</p>
+                </div>
+              </div>
+            </div>
+            <div className="demo-item">
+              <div className="paragraph-spacing-demo">
+                <div className="space-y-8">
+                  <p>Medium spacing between paragraphs</p>
+                  <p>This is another paragraph</p>
+                  <p>And one more paragraph</p>
+                </div>
+                <div className="space-y-12">
+                  <p>Large spacing between paragraphs</p>
+                  <p>This is another paragraph</p>
+                  <p>And one more paragraph</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-      <h2 className="font-4xl font-bold leading-snug mt-8">
-        Paragraph Indentation
-      </h2>
-      <div className="space-y-4">
-        <p className="paragraph-indent-none">No indentation</p>
-        <p className="paragraph-indent-xs">Extra small indentation</p>
-        <p className="paragraph-indent-sm">Small indentation</p>
-        <p className="paragraph-indent-md">Medium indentation</p>
-        <p className="paragraph-indent-lg">Large indentation</p>
-        <p className="paragraph-indent-xl">Extra large indentation</p>
-      </div>
+        {/* Font Families Section */}
+        <section className="demo-section">
+          <h2 className="section-title">Font Families</h2>
+          <div className="grid grid-cols-2 gap-4">
+            <div className="demo-item">
+              <p className="font-inter">Inter - Modern sans-serif font</p>
+              <p className="font-sans">Sans - System sans-serif font</p>
+              <p className="font-serif">Serif - System serif font</p>
+              <p className="font-mono">Monospace - System monospace font</p>
+            </div>
+          </div>
+        </section>
+      </main>
 
-      <h2 className="font-4xl font-bold leading-snug mt-8">Font Families</h2>
-      <div className="space-y-4">
-        <p className="font-inter">Inter font family</p>
-        <p className="font-sans">Sans font family</p>
-        <p className="font-serif">Serif font family</p>
-        <p className="font-mono">Monospace font family</p>
-      </div>
+      <footer className="app-footer">
+        <p className="text-center text-sm text-gray-600">
+          Typography Framework Demo - Built with React
+        </p>
+      </footer>
     </div>
   );
 }
