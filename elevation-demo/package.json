@@ -1,7 +1,7 @@
 {
-  "name": "sizing-demo",
+  "name": "elevation-demo",
   "version": "1.0.0",
-  "description": "Demo application for the sizing utilities framework",
+  "description": "Demo application for the elevation utilities framework",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -12,7 +12,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "sizing-utils": "file:../sizing-utils"
+    "elevation-utils": "file:../elevation-utils"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",
