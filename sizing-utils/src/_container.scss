@@ -1,0 +1,56 @@
+@use 'sass:map';
+@use './tokens' as *;
+
+// Container base
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+// Container sizes
+@each $name, $size in $container-sizes {
+  .container-#{$name} {
+    max-width: $size;
+  }
+}
+
+// Responsive containers
+@media (min-width: 640px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+// Container with different padding options
+.container-padding {
+  &-none {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  &-sm {
+    padding-right: map-get($spacing-scale, '2');
+    padding-left: map-get($spacing-scale, '2');
+  }
+
+  &-md {
+    padding-right: map-get($spacing-scale, '4');
+    padding-left: map-get($spacing-scale, '4');
+  }
+
+  &-lg {
+    padding-right: map-get($spacing-scale, '8');
+    padding-left: map-get($spacing-scale, '8');
+  }
+} 

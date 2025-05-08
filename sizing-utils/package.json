@@ -1,0 +1,22 @@
+{
+  "name": "sizing-utils",
+  "version": "1.0.0",
+  "description": "A comprehensive sizing utility framework for modern web applications",
+  "main": "dist/index.css",
+  "scripts": {
+    "build": "sass src/index.scss dist/index.css",
+    "watch": "sass src/index.scss dist/index.css --watch"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "sizing",
+    "utilities",
+    "framework"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.69.5"
+  }
+}

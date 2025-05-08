@@ -1,0 +1,42 @@
+@use 'sass:map';
+@use './tokens' as *;
+
+// Aspect Ratio Utilities
+.aspect {
+  position: relative;
+  width: 100%;
+
+  &::before {
+    content: '';
+    display: block;
+  }
+
+  > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@each $name, $ratio in $aspect-ratios {
+  .aspect-#{$name} {
+    &::before {
+      padding-bottom: percentage(1 / $ratio);
+    }
+  }
+}
+
+// Responsive aspect ratios
+@each $breakpoint, $value in $breakpoints {
+  @media (min-width: $value) {
+    @each $ratio, $ratio-value in $aspect-ratios {
+      .aspect-#{$breakpoint}-#{$ratio} {
+        &::before {
+          padding-bottom: if($ratio-value == auto, auto, percentage(1 / $ratio-value));
+        }
+      }
+    }
+  }
+} 
