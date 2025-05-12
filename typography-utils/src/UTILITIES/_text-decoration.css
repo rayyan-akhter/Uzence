@@ -1,11 +1,11 @@
 /* Text Decoration Utilities */
 
-/* Underline */
+/* Base Underline */
 .underline {
   text-decoration: underline;
   text-decoration-thickness: var(--iui-underline-thickness-1);
   text-underline-offset: var(--iui-underline-offset-1);
-  text-decoration-style: var(--iui-underline-style-solid);
+  text-decoration-style: solid;
 }
 
 .underline-2 {
@@ -31,19 +31,31 @@
 
 /* Underline Styles */
 .underline-dashed {
-  text-decoration-style: var(--iui-underline-style-dashed);
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: var(--iui-underline-thickness-1);
+  text-underline-offset: var(--iui-underline-offset-1);
 }
 
 .underline-dotted {
-  text-decoration-style: var(--iui-underline-style-dotted);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: var(--iui-underline-thickness-1);
+  text-underline-offset: var(--iui-underline-offset-1);
 }
 
 .underline-double {
-  text-decoration-style: var(--iui-underline-style-double);
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-decoration-thickness: var(--iui-underline-thickness-1);
+  text-underline-offset: var(--iui-underline-offset-1);
 }
 
 .underline-wavy {
-  text-decoration-style: var(--iui-underline-style-wavy);
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: var(--iui-underline-thickness-1);
+  text-underline-offset: var(--iui-underline-offset-1);
 }
 
 /* Line Through */

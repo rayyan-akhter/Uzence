@@ -1,0 +1,30 @@
+/* Font Family Utilities */
+.font-sans {
+  font-family: var(--iui-font-sans);
+}
+
+.font-serif {
+  font-family: var(--iui-font-serif);
+}
+
+.font-mono {
+  font-family: var(--iui-font-mono);
+}
+
+/* Inter Font Family */
+.font-inter {
+  font-family: var(--iui-font-inter);
+}
+
+/* Additional Font Families */
+.font-poppins {
+  font-family: var(--iui-font-poppins);
+}
+
+.font-roboto {
+  font-family: var(--iui-font-roboto);
+}
+
+.font-open-sans {
+  font-family: var(--iui-font-open-sans);
+} 

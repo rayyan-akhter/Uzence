@@ -1,8 +1,16 @@
 :root {
   /* Font Family Tokens */
-  --iui-font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --iui-font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   --iui-font-serif: Georgia, Cambria, 'Times New Roman', Times, serif;
-  --iui-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --iui-font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  
+  /* Inter Font Family */
+  --iui-font-inter: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  
+  /* Additional Font Families */
+  --iui-font-poppins: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --iui-font-roboto: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --iui-font-open-sans: 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 
   /* Font Size Tokens */
   --iui-font-size-2xs: 0.625rem;  /* 10px */
@@ -21,15 +29,15 @@
   --iui-font-size-9xl: 8rem;      /* 128px */
 
   /* Font Weight Tokens */
-  --iui-font-weight-thin: 100;
-  --iui-font-weight-extralight: 200;
-  --iui-font-weight-light: 300;
-  --iui-font-weight-normal: 400;
-  --iui-font-weight-medium: 500;
-  --iui-font-weight-semibold: 600;
-  --iui-font-weight-bold: 700;
-  --iui-font-weight-extrabold: 800;
-  --iui-font-weight-black: 900;
+  --iui-font-thin: 100;
+  --iui-font-extralight: 200;
+  --iui-font-light: 300;
+  --iui-font-normal: 400;
+  --iui-font-medium: 500;
+  --iui-font-semibold: 600;
+  --iui-font-bold: 700;
+  --iui-font-extrabold: 800;
+  --iui-font-black: 900;
 
   /* Letter Spacing Tokens */
   --iui-tracking-tighter: -0.05em;
@@ -38,11 +46,11 @@
   --iui-tracking-wide: 0.025em;
   --iui-tracking-wider: 0.05em;
   --iui-tracking-widest: 0.1em;
-  --iui-tracking-1: 0.025rem;
-  --iui-tracking-2: 0.05rem;
-  --iui-tracking-3: 0.1rem;
-  --iui-tracking-4: 0.15rem;
-  --iui-tracking-5: 0.2rem;
+  --iui-tracking-1: 0.025em;
+  --iui-tracking-2: 0.05em;
+  --iui-tracking-3: 0.075em;
+  --iui-tracking-4: 0.1em;
+  --iui-tracking-5: 0.15em;
 
   /* Line Height Tokens */
   --iui-leading-none: 1;
@@ -83,17 +91,17 @@
   --iui-word-spacing-normal: 0em;
   --iui-word-spacing-wide: 0.05em;
   --iui-word-spacing-wider: 0.1em;
-  --iui-word-spacing-widest: 0.2em;
+  --iui-word-spacing-widest: 0.15em;
 
   /* Text Decoration Tokens */
-  --iui-underline-offset-1: 1px;
-  --iui-underline-offset-2: 2px;
-  --iui-underline-offset-4: 4px;
-  --iui-underline-offset-8: 8px;
-  --iui-underline-thickness-1: 1px;
-  --iui-underline-thickness-2: 2px;
-  --iui-underline-thickness-4: 4px;
-  --iui-underline-thickness-8: 8px;
+  --iui-underline-offset-1: 0.125rem;
+  --iui-underline-offset-2: 0.25rem;
+  --iui-underline-offset-4: 0.5rem;
+  --iui-underline-offset-8: 1rem;
+  --iui-underline-thickness-1: 0.0625rem;
+  --iui-underline-thickness-2: 0.125rem;
+  --iui-underline-thickness-4: 0.25rem;
+  --iui-underline-thickness-8: 0.5rem;
   --iui-underline-style-solid: solid;
   --iui-underline-style-dashed: dashed;
   --iui-underline-style-dotted: dotted;

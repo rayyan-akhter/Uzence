@@ -36,9 +36,13 @@ function App() {
           <h2 className="section-title">Font Family</h2>
           <div className="space-y-2">
             {[
-              { class: 'font-sans', label: 'Sans-serif font family' },
-              { class: 'font-serif', label: 'Serif font family' },
-              { class: 'font-mono', label: 'Monospace font family' }
+              { class: 'font-sans', label: 'System Sans-serif' },
+              { class: 'font-serif', label: 'System Serif' },
+              { class: 'font-mono', label: 'System Monospace' },
+              { class: 'font-inter', label: 'Inter' },
+              { class: 'font-poppins', label: 'Poppins' },
+              { class: 'font-roboto', label: 'Roboto' },
+              { class: 'font-open-sans', label: 'Open Sans' }
             ].map(({ class: className, label }) => (
               <div key={className} className="utility-item">
                 <p className={className}>{label}</p>
