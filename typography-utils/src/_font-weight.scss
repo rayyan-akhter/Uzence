@@ -1,9 +1,0 @@
-// _font-weight.scss
-
-@use './tokens' as *;
-
-@each $name, $weight in $font-weights {
-  .font-#{$name} {
-    font-weight: $weight;
-  }
-}

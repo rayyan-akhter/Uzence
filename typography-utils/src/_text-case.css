@@ -1,0 +1,51 @@
+/* Text Case Utilities */
+.uppercase {
+  text-transform: var(--iui-text-transform-uppercase);
+}
+
+.lowercase {
+  text-transform: var(--iui-text-transform-lowercase);
+}
+
+.capitalize {
+  text-transform: var(--iui-text-transform-capitalize);
+}
+
+.normal-case {
+  text-transform: var(--iui-text-transform-none);
+}
+
+.small-caps {
+  text-transform: var(--iui-text-transform-small-caps);
+}
+
+/* First Letter Case */
+.first-letter-uppercase::first-letter {
+  text-transform: var(--iui-text-transform-uppercase);
+}
+
+.first-letter-lowercase::first-letter {
+  text-transform: var(--iui-text-transform-lowercase);
+}
+
+/* First Word Case */
+.first-word-uppercase {
+  text-transform: lowercase;
+}
+
+.first-word-uppercase::first-letter {
+  text-transform: var(--iui-text-transform-uppercase);
+}
+
+/* All Words Case */
+.all-words-uppercase {
+  text-transform: var(--iui-text-transform-uppercase);
+}
+
+.all-words-lowercase {
+  text-transform: var(--iui-text-transform-lowercase);
+}
+
+.all-words-capitalize {
+  text-transform: var(--iui-text-transform-capitalize);
+} 

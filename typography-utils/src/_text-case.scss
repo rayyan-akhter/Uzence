@@ -1,9 +1,0 @@
-// _text-case.scss
-
-@use './tokens' as *;
-
-@each $name, $value in $text-cases {
-  .case-#{$name} {
-    text-transform: #{$value};
-  }
-}

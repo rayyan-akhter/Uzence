@@ -1,0 +1,141 @@
+/* Text Decoration Utilities */
+
+/* Underline */
+.underline {
+  text-decoration: underline;
+  text-decoration-thickness: var(--iui-underline-thickness-1);
+  text-underline-offset: var(--iui-underline-offset-1);
+  text-decoration-style: var(--iui-underline-style-solid);
+}
+
+.underline-2 {
+  text-decoration: underline;
+  text-decoration-thickness: var(--iui-underline-thickness-2);
+  text-underline-offset: var(--iui-underline-offset-2);
+  text-decoration-style: var(--iui-underline-style-solid);
+}
+
+.underline-4 {
+  text-decoration: underline;
+  text-decoration-thickness: var(--iui-underline-thickness-4);
+  text-underline-offset: var(--iui-underline-offset-4);
+  text-decoration-style: var(--iui-underline-style-solid);
+}
+
+.underline-8 {
+  text-decoration: underline;
+  text-decoration-thickness: var(--iui-underline-thickness-8);
+  text-underline-offset: var(--iui-underline-offset-8);
+  text-decoration-style: var(--iui-underline-style-solid);
+}
+
+/* Underline Styles */
+.underline-dashed {
+  text-decoration-style: var(--iui-underline-style-dashed);
+}
+
+.underline-dotted {
+  text-decoration-style: var(--iui-underline-style-dotted);
+}
+
+.underline-double {
+  text-decoration-style: var(--iui-underline-style-double);
+}
+
+.underline-wavy {
+  text-decoration-style: var(--iui-underline-style-wavy);
+}
+
+/* Line Through */
+.line-through {
+  text-decoration: line-through;
+  text-decoration-thickness: var(--iui-underline-thickness-1);
+}
+
+.line-through-2 {
+  text-decoration: line-through;
+  text-decoration-thickness: var(--iui-underline-thickness-2);
+}
+
+.line-through-4 {
+  text-decoration: line-through;
+  text-decoration-thickness: var(--iui-underline-thickness-4);
+}
+
+.line-through-8 {
+  text-decoration: line-through;
+  text-decoration-thickness: var(--iui-underline-thickness-8);
+}
+
+/* No Decoration */
+.no-underline {
+  text-decoration: none;
+}
+
+/* Decoration Color */
+.decoration-current {
+  text-decoration-color: currentColor;
+}
+
+.decoration-inherit {
+  text-decoration-color: inherit;
+}
+
+.decoration-transparent {
+  text-decoration-color: transparent;
+}
+
+/* Decoration Style */
+.decoration-solid {
+  text-decoration-style: solid;
+}
+
+.decoration-dashed {
+  text-decoration-style: dashed;
+}
+
+.decoration-dotted {
+  text-decoration-style: dotted;
+}
+
+.decoration-double {
+  text-decoration-style: double;
+}
+
+.decoration-wavy {
+  text-decoration-style: wavy;
+}
+
+/* Decoration Thickness */
+.decoration-1 {
+  text-decoration-thickness: var(--iui-underline-thickness-1);
+}
+
+.decoration-2 {
+  text-decoration-thickness: var(--iui-underline-thickness-2);
+}
+
+.decoration-4 {
+  text-decoration-thickness: var(--iui-underline-thickness-4);
+}
+
+.decoration-8 {
+  text-decoration-thickness: var(--iui-underline-thickness-8);
+}
+
+/* Decoration Offset */
+.underline-offset-1 {
+  text-underline-offset: var(--iui-underline-offset-1);
+}
+
+.underline-offset-2 {
+  text-underline-offset: var(--iui-underline-offset-2);
+}
+
+.underline-offset-4 {
+  text-underline-offset: var(--iui-underline-offset-4);
+}
+
+.underline-offset-8 {
+  text-underline-offset: var(--iui-underline-offset-8);
+} 

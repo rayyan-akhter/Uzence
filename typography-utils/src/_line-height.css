@@ -1,0 +1,56 @@
+/* Line Height Utilities */
+.leading-none {
+  line-height: var(--iui-leading-none);
+}
+
+.leading-tight {
+  line-height: var(--iui-leading-tight);
+}
+
+.leading-snug {
+  line-height: var(--iui-leading-snug);
+}
+
+.leading-normal {
+  line-height: var(--iui-leading-normal);
+}
+
+.leading-relaxed {
+  line-height: var(--iui-leading-relaxed);
+}
+
+.leading-loose {
+  line-height: var(--iui-leading-loose);
+}
+
+.leading-3 {
+  line-height: var(--iui-leading-3);
+}
+
+.leading-4 {
+  line-height: var(--iui-leading-4);
+}
+
+.leading-5 {
+  line-height: var(--iui-leading-5);
+}
+
+.leading-6 {
+  line-height: var(--iui-leading-6);
+}
+
+.leading-7 {
+  line-height: var(--iui-leading-7);
+}
+
+.leading-8 {
+  line-height: var(--iui-leading-8);
+}
+
+.leading-9 {
+  line-height: var(--iui-leading-9);
+}
+
+.leading-10 {
+  line-height: var(--iui-leading-10);
+} 

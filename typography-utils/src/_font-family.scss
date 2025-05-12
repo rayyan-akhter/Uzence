@@ -1,9 +1,0 @@
-// _font-family.scss
-
-@use './tokens' as *;
-
-@each $name, $family in $font-families {
-  .font-#{$name} {
-    font-family: #{$family};
-  }
-}

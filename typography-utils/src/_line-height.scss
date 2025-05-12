@@ -1,9 +1,0 @@
-// _line-height.scss
-
-@use './tokens' as *;
-
-@each $name, $height in $line-heights {
-  .leading-#{$name} {
-    line-height: #{$height};
-  }
-}

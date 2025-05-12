@@ -1,0 +1,36 @@
+/* Font Weight Utilities */
+.font-thin {
+  font-weight: var(--iui-font-weight-thin);
+}
+
+.font-extralight {
+  font-weight: var(--iui-font-weight-extralight);
+}
+
+.font-light {
+  font-weight: var(--iui-font-weight-light);
+}
+
+.font-normal {
+  font-weight: var(--iui-font-weight-normal);
+}
+
+.font-medium {
+  font-weight: var(--iui-font-weight-medium);
+}
+
+.font-semibold {
+  font-weight: var(--iui-font-weight-semibold);
+}
+
+.font-bold {
+  font-weight: var(--iui-font-weight-bold);
+}
+
+.font-extrabold {
+  font-weight: var(--iui-font-weight-extrabold);
+}
+
+.font-black {
+  font-weight: var(--iui-font-weight-black);
+} 

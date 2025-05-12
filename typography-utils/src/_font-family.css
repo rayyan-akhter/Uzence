@@ -1,0 +1,12 @@
+/* Font Family Utilities */
+.font-sans {
+  font-family: var(--iui-font-sans);
+}
+
+.font-serif {
+  font-family: var(--iui-font-serif);
+}
+
+.font-mono {
+  font-family: var(--iui-font-mono);
+} 

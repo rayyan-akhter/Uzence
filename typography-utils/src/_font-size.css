@@ -1,0 +1,56 @@
+/* Font Size Utilities */
+.text-2xs {
+  font-size: var(--iui-font-size-2xs);
+}
+
+.text-xs {
+  font-size: var(--iui-font-size-xs);
+}
+
+.text-sm {
+  font-size: var(--iui-font-size-sm);
+}
+
+.text-base {
+  font-size: var(--iui-font-size-base);
+}
+
+.text-lg {
+  font-size: var(--iui-font-size-lg);
+}
+
+.text-xl {
+  font-size: var(--iui-font-size-xl);
+}
+
+.text-2xl {
+  font-size: var(--iui-font-size-2xl);
+}
+
+.text-3xl {
+  font-size: var(--iui-font-size-3xl);
+}
+
+.text-4xl {
+  font-size: var(--iui-font-size-4xl);
+}
+
+.text-5xl {
+  font-size: var(--iui-font-size-5xl);
+}
+
+.text-6xl {
+  font-size: var(--iui-font-size-6xl);
+}
+
+.text-7xl {
+  font-size: var(--iui-font-size-7xl);
+}
+
+.text-8xl {
+  font-size: var(--iui-font-size-8xl);
+}
+
+.text-9xl {
+  font-size: var(--iui-font-size-9xl);
+} 

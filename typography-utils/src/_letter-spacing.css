@@ -1,0 +1,44 @@
+/* Letter Spacing Utilities */
+.tracking-tighter {
+  letter-spacing: var(--iui-tracking-tighter);
+}
+
+.tracking-tight {
+  letter-spacing: var(--iui-tracking-tight);
+}
+
+.tracking-normal {
+  letter-spacing: var(--iui-tracking-normal);
+}
+
+.tracking-wide {
+  letter-spacing: var(--iui-tracking-wide);
+}
+
+.tracking-wider {
+  letter-spacing: var(--iui-tracking-wider);
+}
+
+.tracking-widest {
+  letter-spacing: var(--iui-tracking-widest);
+}
+
+.tracking-1 {
+  letter-spacing: var(--iui-tracking-1);
+}
+
+.tracking-2 {
+  letter-spacing: var(--iui-tracking-2);
+}
+
+.tracking-3 {
+  letter-spacing: var(--iui-tracking-3);
+}
+
+.tracking-4 {
+  letter-spacing: var(--iui-tracking-4);
+}
+
+.tracking-5 {
+  letter-spacing: var(--iui-tracking-5);
+} 

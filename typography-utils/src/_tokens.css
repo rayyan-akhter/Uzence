@@ -1,0 +1,109 @@
+:root {
+  /* Font Family Tokens */
+  --iui-font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --iui-font-serif: Georgia, Cambria, 'Times New Roman', Times, serif;
+  --iui-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Font Size Tokens */
+  --iui-font-size-2xs: 0.625rem;  /* 10px */
+  --iui-font-size-xs: 0.75rem;    /* 12px */
+  --iui-font-size-sm: 0.875rem;   /* 14px */
+  --iui-font-size-base: 1rem;     /* 16px */
+  --iui-font-size-lg: 1.125rem;   /* 18px */
+  --iui-font-size-xl: 1.25rem;    /* 20px */
+  --iui-font-size-2xl: 1.5rem;    /* 24px */
+  --iui-font-size-3xl: 1.875rem;  /* 30px */
+  --iui-font-size-4xl: 2.25rem;   /* 36px */
+  --iui-font-size-5xl: 3rem;      /* 48px */
+  --iui-font-size-6xl: 3.75rem;   /* 60px */
+  --iui-font-size-7xl: 4.5rem;    /* 72px */
+  --iui-font-size-8xl: 6rem;      /* 96px */
+  --iui-font-size-9xl: 8rem;      /* 128px */
+
+  /* Font Weight Tokens */
+  --iui-font-weight-thin: 100;
+  --iui-font-weight-extralight: 200;
+  --iui-font-weight-light: 300;
+  --iui-font-weight-normal: 400;
+  --iui-font-weight-medium: 500;
+  --iui-font-weight-semibold: 600;
+  --iui-font-weight-bold: 700;
+  --iui-font-weight-extrabold: 800;
+  --iui-font-weight-black: 900;
+
+  /* Letter Spacing Tokens */
+  --iui-tracking-tighter: -0.05em;
+  --iui-tracking-tight: -0.025em;
+  --iui-tracking-normal: 0em;
+  --iui-tracking-wide: 0.025em;
+  --iui-tracking-wider: 0.05em;
+  --iui-tracking-widest: 0.1em;
+  --iui-tracking-1: 0.025rem;
+  --iui-tracking-2: 0.05rem;
+  --iui-tracking-3: 0.1rem;
+  --iui-tracking-4: 0.15rem;
+  --iui-tracking-5: 0.2rem;
+
+  /* Line Height Tokens */
+  --iui-leading-none: 1;
+  --iui-leading-tight: 1.25;
+  --iui-leading-snug: 1.375;
+  --iui-leading-normal: 1.5;
+  --iui-leading-relaxed: 1.625;
+  --iui-leading-loose: 2;
+  --iui-leading-3: 0.75rem;
+  --iui-leading-4: 1rem;
+  --iui-leading-5: 1.25rem;
+  --iui-leading-6: 1.5rem;
+  --iui-leading-7: 1.75rem;
+  --iui-leading-8: 2rem;
+  --iui-leading-9: 2.25rem;
+  --iui-leading-10: 2.5rem;
+
+  /* Paragraph Indent Tokens */
+  --iui-indent-none: 0;
+  --iui-indent-xs: 0.5rem;
+  --iui-indent-sm: 1rem;
+  --iui-indent-md: 2rem;
+  --iui-indent-lg: 3rem;
+  --iui-indent-xl: 4rem;
+  --iui-indent-2xl: 6rem;
+
+  /* Paragraph Spacing Tokens */
+  --iui-space-none: 0;
+  --iui-space-xs: 0.5rem;
+  --iui-space-sm: 1rem;
+  --iui-space-md: 2rem;
+  --iui-space-lg: 3rem;
+  --iui-space-xl: 4rem;
+  --iui-space-2xl: 6rem;
+
+  /* Word Spacing Tokens */
+  --iui-word-spacing-tight: -0.05em;
+  --iui-word-spacing-normal: 0em;
+  --iui-word-spacing-wide: 0.05em;
+  --iui-word-spacing-wider: 0.1em;
+  --iui-word-spacing-widest: 0.2em;
+
+  /* Text Decoration Tokens */
+  --iui-underline-offset-1: 1px;
+  --iui-underline-offset-2: 2px;
+  --iui-underline-offset-4: 4px;
+  --iui-underline-offset-8: 8px;
+  --iui-underline-thickness-1: 1px;
+  --iui-underline-thickness-2: 2px;
+  --iui-underline-thickness-4: 4px;
+  --iui-underline-thickness-8: 8px;
+  --iui-underline-style-solid: solid;
+  --iui-underline-style-dashed: dashed;
+  --iui-underline-style-dotted: dotted;
+  --iui-underline-style-double: double;
+  --iui-underline-style-wavy: wavy;
+
+  /* Text Case Tokens */
+  --iui-text-transform-none: none;
+  --iui-text-transform-uppercase: uppercase;
+  --iui-text-transform-lowercase: lowercase;
+  --iui-text-transform-capitalize: capitalize;
+  --iui-text-transform-small-caps: small-caps;
+} 

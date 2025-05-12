@@ -1,9 +1,0 @@
-// _text-decoration.scss
-
-@use './tokens' as *;
-
-@each $name, $value in $text-decorations {
-  .decoration-#{$name} {
-    text-decoration: #{$value};
-  }
-}

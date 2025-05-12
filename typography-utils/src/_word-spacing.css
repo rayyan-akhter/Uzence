@@ -1,0 +1,20 @@
+/* Word Spacing Utilities */
+.word-spacing-tight {
+  word-spacing: var(--iui-word-spacing-tight);
+}
+
+.word-spacing-normal {
+  word-spacing: var(--iui-word-spacing-normal);
+}
+
+.word-spacing-wide {
+  word-spacing: var(--iui-word-spacing-wide);
+}
+
+.word-spacing-wider {
+  word-spacing: var(--iui-word-spacing-wider);
+}
+
+.word-spacing-widest {
+  word-spacing: var(--iui-word-spacing-widest);
+} 

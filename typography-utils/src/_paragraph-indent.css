@@ -1,0 +1,28 @@
+/* Paragraph Indent Utilities */
+.indent-none {
+  text-indent: var(--iui-indent-none);
+}
+
+.indent-xs {
+  text-indent: var(--iui-indent-xs);
+}
+
+.indent-sm {
+  text-indent: var(--iui-indent-sm);
+}
+
+.indent-md {
+  text-indent: var(--iui-indent-md);
+}
+
+.indent-lg {
+  text-indent: var(--iui-indent-lg);
+}
+
+.indent-xl {
+  text-indent: var(--iui-indent-xl);
+}
+
+.indent-2xl {
+  text-indent: var(--iui-indent-2xl);
+} 

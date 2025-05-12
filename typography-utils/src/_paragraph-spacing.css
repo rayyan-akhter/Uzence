@@ -1,0 +1,28 @@
+/* Paragraph Spacing Utilities */
+.space-y-none > * + * {
+  margin-top: var(--iui-space-none);
+}
+
+.space-y-xs > * + * {
+  margin-top: var(--iui-space-xs);
+}
+
+.space-y-sm > * + * {
+  margin-top: var(--iui-space-sm);
+}
+
+.space-y-md > * + * {
+  margin-top: var(--iui-space-md);
+}
+
+.space-y-lg > * + * {
+  margin-top: var(--iui-space-lg);
+}
+
+.space-y-xl > * + * {
+  margin-top: var(--iui-space-xl);
+}
+
+.space-y-2xl > * + * {
+  margin-top: var(--iui-space-2xl);
+} 
